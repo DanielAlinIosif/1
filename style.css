@@ -4,13 +4,39 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: grey;
-  font-family: 'Roboto', sans-serif;
-  overflow: hidden;
-  margin: 0;
+.head-title {
+  display: grid;
 }
 
 #container {
-  scroll-behavior: y axis;
+  position: relative;
+  width: 60%;
+  aspect-ratio: 2/3;
+  margin: auto;
+  border: solid black 2px;
 }
+
+#imgDiv {
+  position: absolute;
+  inset: 0 0 0 0;
+  padding-top: 40px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 30px 0 0 0;
+}
+      
+#imgDiv > img {
+  width: 95%;
+  margin: 2px;
+  scroll-snap-align: start none;
+}
+
+p {
+  display: none;
+}
+
+h2 {
+  display: none;
+}
+
