@@ -7,7 +7,6 @@
 #container {
   position: relative;
   width: 60%;
-  aspect-ratio: 2/3;
   margin: auto;
   border: solid black 2px;
 }
