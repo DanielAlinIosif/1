@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.head-title {
-  display: grid;
-}
-
 #container {
   position: relative;
   width: 60%;
