@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  margin: 0;
+}
+
+#container {
+  scroll-behavior: y axis;
+}
